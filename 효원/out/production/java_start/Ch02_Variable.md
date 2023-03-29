@@ -75,3 +75,10 @@
 ![img_2.png](img_2.png)
 + 예제 Ch2_PrintfEx1
 + 예제 Ch2_PrintfEx2
++ %g: 실수의 길이에 따라 %f or %e의 방식으로 출력
+
+### 화면에서 입력받기 - Scanner
++ 먼저 Scanner클래스를 사용하려면, 아래 문자을 추가해줘야 함
++ *예제 Ch2_ScannerEx.java 
++ 메서드 nextLine() - 입력대기 상태에 있다가 입력을 마치고 엔터키를 누르면 입력한 내용이 문자열로 반환됨
++ 메서드 Integer.parseInt() - 입격받은 분자열을 숫자로 변환
