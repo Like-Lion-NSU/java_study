@@ -1,6 +1,6 @@
 public class Ch2_VarEx1 {
     public static void main(String[] args) {
-        int year = 0;//변수 year 선언, 년도는 정수이므로 int로 지정
+        int year = 0;// year 변수 선언, 년도는 정수이므로 int로 지정
         int age = 14;
 
         System.out.println(year);//화면에 글자를 출력하기 위한 println()
