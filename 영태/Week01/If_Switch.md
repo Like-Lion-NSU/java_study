@@ -14,7 +14,7 @@
 >>   ```
 >>  - 조건문의 line = 1 이면 블럭{} 생략 가능
 >>  <br> line >= 2일 땐 블럭{} 생략 불가능
->>  - if-else 
+>>  - if-else
 >>> ```java 
 >>>   public class Exjava{
 >>>   public static void cast(String args[]){
@@ -47,7 +47,7 @@
 >>>  }
 >>>   ```
 >> - if문 블럭{} 안 또 다른 if문을 사용할 수 있다 → 중첩 if문
-> <br>
+>
 > ### 2. Switch
 > ***
 >>   ```java 
@@ -71,7 +71,7 @@
 >>   - Switch문의 조건식 결과는 정수 또는 문자열
 >>   - case문의 값은 정수 상수만 가능하며 중복 불가능
 >> - Switch문도 if문과 동일하게 중첩 Swtich문 존재
-> <br>
+>
 > ### 3. 개선된 Switch
 > ***
 >> - 화살표 case 레이블
