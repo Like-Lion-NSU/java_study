@@ -74,3 +74,4 @@
 + 자주 사용하는 지시자
 ![img_2.png](img_2.png)
 + 예제 Ch2_PrintfEx1
++ 예제 Ch2_PrintfEx2

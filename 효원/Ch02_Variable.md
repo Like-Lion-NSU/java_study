@@ -74,3 +74,6 @@
 + 자주 사용하는 지시자
 ![img_2.png](img_2.png)
 + 예제 Ch2_PrintfEx1
++ 예제 Ch2_PrintfEx2
++ %g: 실수의 길이에 따라 %f or %e의 방식으로 출력
++ 
