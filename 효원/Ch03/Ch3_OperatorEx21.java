@@ -1,3 +1,5 @@
+package Ch03;
+
 public class Ch3_OperatorEx21 {
     public static void main(String[] args) {
         System.out.printf("10 == 10.0f  \t %b%n", 10==10.0f);// 10을 float로 변환하고 비교

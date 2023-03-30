@@ -1,3 +1,5 @@
+package Ch02;
+
 public class Ch2_VarEx2 {
     public static void main(String[] args) {
         int x = 10, y = 20;
