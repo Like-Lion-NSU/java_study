@@ -1,3 +1,5 @@
+package Ch03;
+
 public class Ch3_OperatorEx22 {
     public static void main(String[] args) {
         float f = 0.1f;// f에 0.10000000149011612로 저장
