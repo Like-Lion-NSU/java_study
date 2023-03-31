@@ -320,3 +320,11 @@ weight = weight + 10; // 왼쪽 변수는 데이터를 보관하는 상자를 �
 
 `` 조건식 ? 연산식1 : 연산식 2``
 
+- trenaryoperator 예제
+
+### 8. 연산자 우선순위
+
+![Alt text](http://hongong.hanbit.co.kr/wp-content/uploads/2021/11/%EC%9E%90%EB%B0%94_%EC%97%B0%EC%82%B0%EC%9D%98_%EB%B0%A9%ED%96%A5%EA%B3%BC_%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84.png)
+
+- 연산자 우선순위의 표 정리
+
