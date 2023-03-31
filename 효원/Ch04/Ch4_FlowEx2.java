@@ -1,3 +1,5 @@
+package Ch04;
+
 import java.util.*; //Scanner 클래스를 사용하기 위해 추가
 public class Ch4_FlowEx2 {
     public static void main(String[] args) {
