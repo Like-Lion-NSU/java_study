@@ -1,12 +1,12 @@
 public class Ex {
 
     public static void main(String args[]) {
-        int x = 5;
-        int b = -1;
 
-        x = x++ - ++x;
-        System.out.println(x);
-
-
-    }
-}
+    for(int i=1; i<=5; i++){
+        for(int j=0; j<i; j++){
+            System.out.print("*");
+            }
+        System.out.println("");
+     }
+   }
+  }
