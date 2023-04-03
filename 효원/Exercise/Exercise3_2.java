@@ -1,9 +1,14 @@
+//  국어, 영어, 수학 세 과목의 시험 점수를 입력받아 총점과 평균을 구하고, 
+//  평균이 60점 이상인 경우에 "합격입니다." 메시지를 출력하고, 
+//  60점 이상이 아닌 경우에 "불합격입니다." 메시지를 출력한다.
+
 package Exercise;
 
 import java.util.Scanner;
 
 public class Exercise3_2 {
     public static void main(String[] args) {
+       
 
 //          for문 이용
 //        Scanner scanner = new Scanner(System.in);//Scanner클래스의 객체를 생성
