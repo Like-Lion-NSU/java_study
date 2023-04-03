@@ -8,6 +8,9 @@ public class DowhileDemo {
         } while (i < 5);
         System.out.println("do~ while문 실행 후 :" + i);
 
+
+
+
         i = 10;
         while ( i < 5 ){
             i++;

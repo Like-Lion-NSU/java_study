@@ -2,7 +2,7 @@ package 예제;
 
 public class CastDemo {
     public static void main(String []args){
-        int i;
+         int i;
         double d;
         byte b;
 
