@@ -60,6 +60,6 @@ public class Exercise3_2 {
             default:// 일치하는 case문이 없을 때
                 System.out.println("불합격입니다.");// 불합격입니다. 출력
         }
-
     }
 }
+ 
