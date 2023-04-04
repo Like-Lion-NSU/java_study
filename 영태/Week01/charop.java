@@ -4,7 +4,7 @@ public class charop {
     public static void main(String[] args) {
         char ch = 'A';
 
-        char lowerCase = (((int)ch<97) ? 'a' : ch);
+        char lowerCase = (((int)ch==97) ? 'a' : ch);
 
         System.out.println("ch:"+ch);
         System.out.println("ch to lowerCase:"+lowerCase);
