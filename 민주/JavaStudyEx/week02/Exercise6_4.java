@@ -1,6 +1,6 @@
 public class Exercise6_4 {
     public static void main(String[] args){
-        Student s = new Student();
+        Student s = new Student(); //메소드 선언
         s.name ="홍길동";
         s.ban=1;
         s.no=1;
@@ -13,8 +13,8 @@ public class Exercise6_4 {
         System.out.println("평균 : "+s.getAverage());
     }
 }
-class Student{
-    String name;
+class Student{ // class
+    String name; // 타입 지정
     int ban;
     int no;
     int kor;
@@ -23,8 +23,8 @@ class Student{
 
     int getTotal(){
       return kor+eng+math;
-    }
-    float getAverage(){
+    } // 메소드 설정
+    float getAverage(){ // 메소드 설정
         float aver=getTotal()/(float)3.0;
         float a=aver*100;
         float b=(a)%10;

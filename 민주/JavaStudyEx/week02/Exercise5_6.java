@@ -11,6 +11,7 @@ public class Exercise5_6 {
             int sum = coinUnit[i]*j; // for문이 돌면 그에 맞는 i와 j값을 계산하여 sum에 저장, for문이 돌수록 누적합
             money = money-sum; // 전체 값에서 위의 sum 값을 빼서 다음 연상때 money의 값을 바꿈(2680-500*5=180)=>다음 money 값이 180원이 됨
         }
+        // 생각한 것 -> 수식화
         /*int a = money/500;
         int b = money%500/100;
         int c = money%100/50;
