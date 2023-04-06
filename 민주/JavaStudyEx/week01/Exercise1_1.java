@@ -1,4 +1,4 @@
-public class javastudy1 {
+public class Exercise1_1 {
     public static void main(String[] args){
         char ch = 'A';
         char lowerCase = (ch >= 65 && ch < 97) ?  'a' : ch;

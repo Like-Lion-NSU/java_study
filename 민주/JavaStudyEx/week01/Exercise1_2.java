@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class javastudy2 {
+
+public class Exercise1_2 {
     public static void main(String[] args) {
         int total = 0;
         double score;
