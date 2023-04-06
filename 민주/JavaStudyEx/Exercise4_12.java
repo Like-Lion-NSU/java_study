@@ -1,5 +1,3 @@
-package JavaStudyEx;
-
 public class Exercise4_12 {
     public static void main(String[] args){
         for(int dan =2 ; dan<=9;dan++){

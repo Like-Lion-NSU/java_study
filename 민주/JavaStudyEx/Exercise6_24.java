@@ -1,5 +1,3 @@
-package JavaStudyEx;
-
 public class Exercise6_24{
     public static int abs(int value){
         if(value>=0)
