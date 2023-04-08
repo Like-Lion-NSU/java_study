@@ -1,3 +1,4 @@
+package week02;
 public class Exercise4_12 {
     public static void main(String[] args){
         for(int dan =2 ; dan<=9;dan++){ //2단부터 9단까지

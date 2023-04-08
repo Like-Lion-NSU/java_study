@@ -1,3 +1,4 @@
+package week02;
 public class Exercise5_6 {
     public static void main(String[] args){
         int[] coinUnit = {500, 100, 50, 10}; //0,1,2,3 (4개)
