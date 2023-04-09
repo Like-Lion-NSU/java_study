@@ -43,7 +43,7 @@ public class Javaq {
 //                System.out.println("불합격입니다.");
 //                break;
 
-        }
+          }
 
     }
 
