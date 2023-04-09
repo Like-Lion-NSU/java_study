@@ -1,3 +1,4 @@
+package week02;
 public class Exercise6_24{
     public static int abs(int value){
         if(value>=0) // 양수이면 그대로 리턴

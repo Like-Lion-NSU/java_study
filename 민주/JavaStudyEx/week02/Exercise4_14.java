@@ -1,3 +1,4 @@
+package week02;
 public class Exercise4_14 {
     public static void main(String[] args){
         int answer= 76; // 76을 맞추면 break
