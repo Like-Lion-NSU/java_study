@@ -47,7 +47,7 @@ System.out.println(4 * x + 3);
 + 감소 연산자(--): 피연산자의 값을 1 감소 시킴
 + 전위형: 값이 참조되기 전에 증가시킴 ex) j = ++i;
 + 후위형: 값이 참조된 후에 증가시킴 ex) j = i++;
-+ 예제 Ch03.Ch3_OperatorEx2
++ 예제 JavaStandard.Ch03.Ch3_OperatorEx2
 ![img_21.png](../img/img_21.png)
 
 
@@ -65,7 +65,7 @@ System.out.println(4 * x + 3);
   + 'a+b'의 연산결과는 byte형이 아닌 int형(4 byte)이기에 1byte 변수에 형변환없이 저장하려고 했기 때문에 에러 발생
 ![img_22.png](../img/img_22.png)
 + byte 형의 범위인 '-128~127'의 범위를 넘는 int형의 값을 byte형으로 변환하면 원래의 값이 보존되지 않고 byte형의 범위 중 한 값을 갖게 된다.
-+ 예제 Ch03.Ch3_OperatorEx8
++ 예제 JavaStandard.Ch03.Ch3_OperatorEx8
 <pre> long a = 1_000_000 * 1_000_000;
  System.out.println("a="+a); //int의 최대값(2*10^9)을 넘어서 오버플로우 발생
 </pre>
@@ -75,7 +75,7 @@ System.out.println(4 * x + 3);
 + 왼쪽의 피연산자를 오른족 피연산자로 나누고 난 나머지 값을 결과로 반환하는 연산자
 + 나머지 연산자(%)는 나누는 수로 음수도 허용함
 + 나머지 연산한 결과에 왼쪽 피연산자의 부호를 붙이면 됨
-+ 예제 Ch03.Ch3_OperatorEx20
++ 예제 JavaStandard.Ch03.Ch3_OperatorEx20
 
 ## 4. 비교연산자
 + 두 피연산자를 비교하는 데 사용되는 연산자
@@ -94,7 +94,7 @@ System.out.println(4 * x + 3);
 + 모든 자료형에 사용가능
 > + '=' : 두 값이 같으면, true 아니면 false
 > + '!=' : 두 값이 다르면, true 아니면 false
-+ 예제 Ch03.Ch3_OperatorEx21
++ 예제 JavaStandard.Ch03.Ch3_OperatorEx21
 + 문자열의 비교
   + equls()라는 메서드 사용
   + 문자열의 내용이 같은지 비교하기 위함
