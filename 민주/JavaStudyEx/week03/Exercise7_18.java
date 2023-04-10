@@ -1,4 +1,4 @@
-package week03;
+/*package week03;
 
 public class Exercise7_18 {
     public static void action(Robot robot){
@@ -34,9 +34,6 @@ class DrawRobot extends Robot{
     void draw(){
         System.out.println("그림을 그립니다");
     }
-}
-
-
-
+}*/
 
 
