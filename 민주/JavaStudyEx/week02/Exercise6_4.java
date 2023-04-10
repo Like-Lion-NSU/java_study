@@ -5,9 +5,6 @@ public class Exercise6_4 {
         Student s = new Student(); // 객제 생성
         s.name ="홍길동"; //객제 맴버
 
-        Student s = new Student(); 
-        s.name ="홍길동";
-
         s.ban=1;
         s.no=1;
         s.kor=100;
