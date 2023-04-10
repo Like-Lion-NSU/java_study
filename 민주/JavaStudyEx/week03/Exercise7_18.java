@@ -1,7 +1,7 @@
 package week03;
 
 public class Exercise7_18 {
-    public void action(Robot robot){
+    public static void action(Robot robot){
         if(robot = DanceRobot){
             ((DanceRobot) robot).dance();
         }
@@ -35,7 +35,6 @@ class DrawRobot extends Robot{
         System.out.println("그림을 그립니다");
     }
 }
-
 
 
 

@@ -1,6 +1,6 @@
 package week03;
 
-public class Exercise7_10 {
+/*public class Exercise7_10 {
 public static void main(String args[]){
     MyTv2 t = new MyTv2();
 
@@ -33,4 +33,4 @@ class MyTv2{
         return volume;
     }
 
-}
+}*/
