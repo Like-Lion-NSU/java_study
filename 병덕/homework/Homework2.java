@@ -75,7 +75,7 @@ class Student extends transit{ // 학생 클래스
     public void takeBus(Bus bus771) { // 학생이 버스를 탐으로 학생의 돈이 차감
         bus771.take(1500);
     }
-    public void takeTaxi(Taxi taxi0406) { // 학생이 택시를 탐으로 학생의 돈이 차감
+    public void takeTaxi(Taxi taxi0406) { // 학생이 택시 를 탐으로 학생의 돈이 차감
         taxi0406.take(4500);
     }
     public void takeSubway(Subway subway1) { // 학생이 지하철를 탐으로 학생의 돈이 차감
