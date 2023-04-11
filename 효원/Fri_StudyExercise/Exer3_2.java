@@ -11,9 +11,17 @@ package Fri_StudyExercise;
 
 public class Exer3_2 {
     /*(1)action 메서드를 작성하시오*/
-    static int action(Robot r){
-        if(r instanceof SingRobot);{
-            r.sing();
+    static void action(Robot r){//Robot타입의 참조변수 r을 매개변수로 하는 매서드
+        if(r instanceof DanceRobot){//객체 타입 확인
+            DanceRobot a = (DanceRobot) r;//r 객체를 DanceRobot타입으로 형변환
+            a.dance();//메서드 호출
+            //Q (DanceRobot)r.dance();
+        } else if (r instanceof SingRobot){
+            SingRobot a = (SingRobot) r;
+            a.sing();
+        } else if (r instanceof DrawRobot) {
+            DrawRobot a = (DrawRobot) r;
+            a.draw();
         }
     }
     public static void main(String[] args) {
@@ -43,7 +51,9 @@ class DrawRobot extends Robot {
         System.out.println("그림을 그립니다.");
     }
 }
-
+//instanceof 연산자
+//객체타입을 검사하기 위한 연산자
+//객체 타입을 확인하여 형변환 수행 가능 -> 다형성 구현에 사용
 
 
 
