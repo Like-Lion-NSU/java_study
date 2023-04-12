@@ -10,7 +10,6 @@ public class Exercise7_18 {
         } else if (robot = DrawRobot) {
             ((DrawRobot) robot).draw();
         }
-
     }
     public static void main(String[] args){
         Robot[] arr = {new DanceRobot(), new SingRobot(), new DrawRobot()};
@@ -35,5 +34,3 @@ class DrawRobot extends Robot{
         System.out.println("그림을 그립니다");
     }
 }*/
-
-

@@ -23,7 +23,7 @@ public class Ex1_2{
 class Student {
     String name;//Student의 이름
     int won;//Student의 돈
-   public  Student(String name, int won){ // Student의 값을 받음
+   public Student(String name, int won){ // Student의 값을 받음
         this.name = name;// this 러퍼런스를 이용해 객체 자신을 메소드에 전달
         this.won = won;
     }
