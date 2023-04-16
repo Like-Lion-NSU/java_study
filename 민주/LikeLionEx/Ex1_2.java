@@ -47,28 +47,43 @@ class Traff {// 부모 class
     int count=0; // 승객 수
     int num; // 교통수단 번호
     int money=0;// 교통수단 수익
-    public void take(int money){
-        this.money+=money;
-    }
-    public void showInfo(){
-        System.out.println(num+"지하철 승객 : "+count+"/   수입 : "+money);
-    }
 }
 class Bus extends Traff{// 부모 클래스(Traff)을 상속받는 자식 클래스 Bus
     Bus(int num){
         this.num=num; // 현재 객체의 num
-        count++; // 승객 수 ++
          }
+    public void take(int money){
+        this.money+=money;
+        count++;
+    }
+    public void showInfo(){
+
+        System.out.println(num+"버스 승객 : "+count+"/   수입 : "+money);
+    }
 }
 class Taxi extends Traff{
     Taxi(int num){
         this.num=num;
+    }
+    public void take(int money){
+        this.money+=money;
         count++;
+    }
+    public void showInfo(){
+
+        System.out.println(num+"택시 승객 : "+count+"/   수입 : "+money);
     }
 }
 class Subway extends Traff{
     Subway(String line){
         this.num=num;
+    }
+    public void take(int money){
+        this.money+=money;
         count++;
+    }
+    public void showInfo(){
+
+        System.out.println(num+"지하철 승객 : "+count+"/   수입 : "+money);
     }
 }

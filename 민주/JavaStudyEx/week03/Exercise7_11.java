@@ -1,9 +1,9 @@
-package week03;
+/*package week03;
 class MyTv2{
-   boolean isPowerOn;
-   int channel;
-   int pre;
-   int volume;
+   private boolean isPowerOn;
+   private int channel;
+   private int pre;
+   private int volume;
    final int MAX_VOlUME = 100;
    final int MIN_VOlUME = 0;
    final int MAX_CHANNEL = 100;
@@ -33,4 +33,4 @@ public class Exercise7_11 {
         t.gotoPrevChannel ();
         System. out. println ("CH: "+t. getChannel ());
      }
-}
+}*/
