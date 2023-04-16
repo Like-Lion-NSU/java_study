@@ -23,7 +23,7 @@ public class Ex1_2{
 class Student {
     String name;//Student의 이름
     int won;//Student의 돈
-   public  Student(String name, int won){ // Student의 값을 받음
+   public Student(String name, int won){ // Student의 값을 받음
         this.name = name;// this 러퍼런스를 이용해 객체 자신을 메소드에 전달
         this.won = won;
     }
@@ -51,36 +51,39 @@ class Traff {// 부모 class
 class Bus extends Traff{// 부모 클래스(Traff)을 상속받는 자식 클래스 Bus
     Bus(int num){
         this.num=num; // 현재 객체의 num
-        count++; // 승객 수 ++
          }
-    public void take(int money){ // 수입을 받음
-        this.money+=money; // 현재 객체의 money에 수익을 더해줌
+    public void take(int money){
+        this.money+=money;
+        count++;
     }
     public void showInfo(){
-        System.out.println("버스 승객 : "+count+"/   수입 : "+money);
+
+        System.out.println(num+"버스 승객 : "+count+"/   수입 : "+money);
     }
 }
 class Taxi extends Traff{
     Taxi(int num){
         this.num=num;
-        count++;
     }
     public void take(int money){
         this.money+=money;
+        count++;
     }
     public void showInfo(){
-        System.out.println("택시 승객 : "+count+"/   수입 : "+money);
+
+        System.out.println(num+"택시 승객 : "+count+"/   수입 : "+money);
     }
 }
 class Subway extends Traff{
     Subway(String line){
         this.num=num;
-        count++;
     }
     public void take(int money){
         this.money+=money;
+        count++;
     }
     public void showInfo(){
+
         System.out.println(num+"지하철 승객 : "+count+"/   수입 : "+money);
     }
 }

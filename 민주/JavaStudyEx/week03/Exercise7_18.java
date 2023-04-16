@@ -1,16 +1,15 @@
 package week03;
 
 public class Exercise7_18 {
-    public static void action(Robot robot){
-        if(robot = DanceRobot){
+    public static void action(Robot robot){ // 객체타입 비교 : instanceof, ==는 주소값, 객체는 주소값이 달라짐, 인스턴스는 값이 같음,
+        if(robot instanceof DanceRobot){
             ((DanceRobot) robot).dance();
         }
-        else if(robot = SingRobot){
+        else if(robot instanceof SingRobot){
             ((SingRobot) robot).sing();
-        } else if (robot = DrawRobot) {
+        } else if (robot instanceof DrawRobot) {
             ((DrawRobot) robot).draw();
         }
-
     }
     public static void main(String[] args){
         Robot[] arr = {new DanceRobot(), new SingRobot(), new DrawRobot()};
@@ -35,8 +34,3 @@ class DrawRobot extends Robot{
         System.out.println("그림을 그립니다");
     }
 }
-
-
-
-
-
