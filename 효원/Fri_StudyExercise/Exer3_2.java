@@ -13,15 +13,13 @@ public class Exer3_2 {
     /*(1)action 메서드를 작성하시오*/
     static void action(Robot r){//Robot타입의 참조변수 r을 매개변수로 하는 매서드
         if(r instanceof DanceRobot){//객체 타입 확인
-            DanceRobot a = (DanceRobot) r;//r 객체를 DanceRobot타입으로 형변환
-            a.dance();//메서드 호출
+            ((DanceRobot)r).dance();;//r 객체를 DanceRobot타입으로 형변환
+            //메서드 호출
             //Q (DanceRobot)r.dance();
         } else if (r instanceof SingRobot){
-            SingRobot a = (SingRobot) r;
-            a.sing();
+            ((SingRobot)r).sing();
         } else if (r instanceof DrawRobot) {
-            DrawRobot a = (DrawRobot) r;
-            a.draw();
+            ((DrawRobot)r).draw();
         }
     }
     public static void main(String[] args) {
