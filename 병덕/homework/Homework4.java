@@ -68,7 +68,10 @@ class Userlevel { // 유저의 레벨을 위한 클래스
             ));
             Stream<Userlevel> level = userlevel.stream();  // 유저 power에 관련된 스트림 생성
             userlevel.stream()
-                    .filter(userlevel::add);
+                    .filter(userlevel1->userlevel()>=15)
+                            .sorted()
+                    .map(level::userlevel)
+                    .map(username.toUpperCase());
 
 
             System.out.println(userlevel);
