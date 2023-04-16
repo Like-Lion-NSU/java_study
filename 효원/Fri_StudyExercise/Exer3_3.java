@@ -18,7 +18,8 @@ package Fri_StudyExercise;
             t.gotoPrevChannel();//현재 채널값->이전 채널값 메서드
             System.out.println("CH:" + t.getChannel());//현재 채널값(channel) 20이 저장되고 이전 채널값 10이 저장됨
             t.gotoPrevChannel();
-            System.out.println("CH:" + t.getChannel());
+            System.out.println("CH:" + t.getChannel());//test
+
 
         }
     }
