@@ -15,7 +15,7 @@ public class EX4_5 {
             String text = sc.nextLine();
             //nextLine
             StringTokenizer st = new StringTokenizer(text, ",");
-            //StringTokenizer 하나의 문자열을 여러개의 문자열 조각으로 분리하는 것
+            //StringTokenizer 하나의 문자열을 여러개의 문자열 조각(토큰)으로 분리하는 것
             // (문자열, 구분자)
             String name = st.nextToken().trim();
             String major = st.nextToken().trim();
@@ -29,6 +29,7 @@ public class EX4_5 {
 
         for(int i = 0 ; i < info.size() ; i++) {
             Student save = info.get(i);
+            //배열을 save로 가져옴
             System.out.println("이름:"+save.getName());
             System.out.println("학과:"+save.getMajor());
             System.out.println("학번"+save.getGrade());
@@ -40,17 +41,19 @@ public class EX4_5 {
         System.out.print("학생 이름 >> ");
 
         String search = sc.next();
+        while(true){
             for(int i=0;i<student.length;i++) {
-                if(search.equals(student[i])) {  //.equals로 문자열 일치여부 비교
+                if (search.equals(student[i])) {  //.equals로 문자열 일치여부 비교
                     Student save = info.get(i);
-                    System.out.print("이름:"+save.getName());
-                    System.out.print("학과:"+save.getMajor());
-                    System.out.print("학번"+save.getGrade());
-                    System.out.print("학점평균:"+save.getScore());
+                    System.out.print("이름:" + save.getName());
+                    System.out.print("학과:" + save.getMajor());
+                    System.out.print("학번" + save.getGrade());
+                    System.out.print("학점평균:" + save.getScore());
                 }
-                else{
-                    sc.close();
-                }
+                //else(search.equals("그만")){ sc.close();} 오류?!
+
+            }
+            sc.close();
         }
     }
 }
